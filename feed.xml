@@ -9,7 +9,20 @@
     <description>Private test feed for HIP signal survivability validation. Not for public distribution.</description>
     <itunes:author>HIP Labs</itunes:author>
     <itunes:image href="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/artwork.png"/>
+    <image><url>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/artwork.png</url><title>HIP Labs Signal Test</title><link>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed.xml</link></image>
     <itunes:category text="Technology"/>
     <itunes:explicit>no</itunes:explicit>
+    <atom:link href="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed.xml" rel="self" type="application/rss+xml"
+      xmlns:atom="http://www.w3.org/2005/Atom"/>
+    
+    <item>
+      <title>HIP Smoke Test [apdp]</title>
+      <description>HIP signal survivability test. Scenario: apdp. Run: smoke.</description>
+      <pubDate>Sat, 04 Jul 2026 14:34:46 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/smoke_test_apdp_a6b63b3e.wav" length="88244" type="audio/wav"/>
+      <guid isPermaLink="false">a6b63b3e-37ca-4e2e-813e-9a42d0ebf5e0</guid>
+      <itunes:duration>00:00:01</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
   </channel>
 </rss>
