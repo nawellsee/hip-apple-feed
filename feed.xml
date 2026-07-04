@@ -9,7 +9,20 @@
     <description>Private test feed for HIP signal survivability validation. Not for public distribution.</description>
     <itunes:author>HIP Labs</itunes:author>
     <itunes:image href="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/artwork.png"/>
+    <image><url>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/artwork.png</url><title>HIP Labs Signal Test</title><link>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed.xml</link></image>
     <itunes:category text="Technology"/>
     <itunes:explicit>no</itunes:explicit>
+    <atom:link href="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed.xml" rel="self" type="application/rss+xml"
+      xmlns:atom="http://www.w3.org/2005/Atom"/>
+    
+    <item>
+      <title>HIP Test 2026-07-04 [apdp]</title>
+      <description>HIP signal survivability test. Scenario: apdp. Run: 0b004846-7933-4dfd-bc32-8904de13d3e8.</description>
+      <pubDate>Sat, 04 Jul 2026 15:09:31 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/bb-podcast-apple7_injected_apdp_ba0bdc24.wav" length="17771674" type="audio/wav"/>
+      <guid isPermaLink="false">ba0bdc24-96c0-4f89-8070-21b7e3170d7b</guid>
+      <itunes:duration>00:06:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
   </channel>
 </rss>
