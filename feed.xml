@@ -17,6 +17,15 @@
     
     <item>
       <title>HIP Test 2026-07-04 [apdp]</title>
+      <description>HIP signal survivability test. Scenario: apdp. Run: 4fecd122-2411-46b9-8608-6c59b2120286.</description>
+      <pubDate>Sat, 04 Jul 2026 05:46:37 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/bb-podcast-apple6_injected_apdp_df3e010c.wav" length="17682510" type="audio/wav"/>
+      <guid isPermaLink="false">df3e010c-9698-4636-9263-f399a0ebe7b4</guid>
+      <itunes:duration>00:06:08</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>HIP Test 2026-07-04 [apdp]</title>
       <description>HIP signal survivability test. Scenario: apdp. Run: e5aa4459-87cc-4cec-9a52-3d485e1b28db.</description>
       <pubDate>Sat, 04 Jul 2026 05:31:06 GMT</pubDate>
       <enclosure url="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/bb-podcast-apple4_injected_apdp_3dc40172.wav" length="17800652" type="audio/wav"/>
