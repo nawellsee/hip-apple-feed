@@ -16,6 +16,15 @@
       xmlns:atom="http://www.w3.org/2005/Atom"/>
     
     <item>
+      <title>HIP Test ap128 - bb-podcast-apple3</title>
+      <description>HIP signal survivability test. Scenario: ap128. Run: n/a.</description>
+      <pubDate>Sat, 04 Jul 2026 04:59:02 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/bb-podcast-apple3_injected_ap128_498a9cdd.wav" length="17780590" type="audio/wav"/>
+      <guid isPermaLink="false">498a9cdd-1023-4fda-b925-6611d133fe59</guid>
+      <itunes:duration>00:06:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>HIP Test</title>
       <description>HIP signal survivability test. Scenario: ap128. Run: n/a.</description>
       <pubDate>Sat, 04 Jul 2026 04:58:26 GMT</pubDate>
