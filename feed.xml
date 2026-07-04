@@ -1,25 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/modules/content/">
   <channel>
     <title>HIP Labs Signal Test</title>
-    <link>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed.xml</link>
+    <link>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed</link>
     <language>en-us</language>
     <description>Private test feed for HIP signal survivability validation. Not for public distribution.</description>
     <itunes:author>HIP Labs</itunes:author>
-    <itunes:image href="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/artwork.png"/>
-    <image><url>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/artwork.png</url><title>HIP Labs Signal Test</title><link>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed.xml</link></image>
+    <itunes:image href="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/artwork.png"/>
+    <image><url>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/artwork.png</url><title>HIP Labs Signal Test</title><link>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed</link></image>
     <itunes:category text="Technology"/>
     <itunes:explicit>no</itunes:explicit>
-    <atom:link href="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed" rel="self" type="application/rss+xml"
+      xmlns:atom="http://www.w3.org/2005/Atom"/>
     
+    <item>
+      <title>HIP Test</title>
+      <description>HIP signal survivability test. Scenario: ap128. Run: n/a.</description>
+      <pubDate>Sat, 04 Jul 2026 04:58:26 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/bb-podcast-apple3_injected_ap128_9892f015.wav" length="17780590" type="audio/wav"/>
+      <guid isPermaLink="false">9892f015-6a3f-45ea-b213-b3b42622eed3</guid>
+      <itunes:duration>00:06:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>HIP Test ap128 debug</title>
+      <description>HIP signal survivability test. Scenario: ap128. Run: n/a.</description>
+      <pubDate>Sat, 04 Jul 2026 04:58:18 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/bb-podcast-apple3_injected_ap128_a3de7e0a.wav" length="17780590" type="audio/wav"/>
+      <guid isPermaLink="false">a3de7e0a-adf8-466b-9c70-17d6b4d79d0c</guid>
+      <itunes:duration>00:06:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>HIP Test ap128 debug</title>
+      <description>HIP signal survivability test. Scenario: ap128. Run: n/a.</description>
+      <pubDate>Sat, 04 Jul 2026 04:58:14 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/bb-podcast-apple3_injected_ap128_3085799d.wav" length="17780590" type="audio/wav"/>
+      <guid isPermaLink="false">3085799d-20fe-41a7-a2e5-01b5bf615144</guid>
+      <itunes:duration>00:06:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>HIP Test 2026-07-04 [ap128]</title>
+      <description>HIP signal survivability test. Scenario: ap128. Run: 53c7950a-3ae2-4978-a048-9069383d44b2.</description>
+      <pubDate>Sat, 04 Jul 2026 04:56:47 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/bb-podcast-apple3_injected_ap128_25ab591a.wav" length="17780590" type="audio/wav"/>
+      <guid isPermaLink="false">25ab591a-1610-4b20-8d3f-448e8789f933</guid>
+      <itunes:duration>00:06:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>HIP Test 2026-07-04 [ap128]</title>
+      <description>HIP signal survivability test. Scenario: ap128. Run: b9fc7623-bfea-4b5a-ba6d-85c779127f95.</description>
+      <pubDate>Sat, 04 Jul 2026 04:48:58 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/bb-podcast-apple2_injected_ap128_cdc8a3ae.wav" length="17711488" type="audio/wav"/>
+      <guid isPermaLink="false">cdc8a3ae-2ea1-45b3-ae2d-7b0e3fc1e339</guid>
+      <itunes:duration>00:06:08</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>HIP Labs Signal Test - Seed Episode</title>
       <description>Seed episode for feed validation. Not a signal test.</description>
       <pubDate>Sat, 04 Jul 2026 03:57:21 GMT</pubDate>
-      <enclosure url="https://lloyds-mac-mini.tailc5994e.ts.net:8089/media/hip_test_seed_74c3d449.mp3" length="160957" type="audio/mpeg"/>
+      <enclosure url="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/media/hip_test_seed_74c3d449.mp3" length="160957" type="audio/mpeg"/>
       <guid isPermaLink="false">74c3d449-3983-4bf6-a6b4-ccd6ccdfff12</guid>
       <itunes:duration>00:00:10</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
