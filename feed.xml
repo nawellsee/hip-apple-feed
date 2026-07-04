@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/modules/content/">
+  <channel>
+    <title>HIP Labs Signal Test</title>
+    <link>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed.xml</link>
+    <language>en-us</language>
+    <description>Private test feed for HIP signal survivability validation. Not for public distribution.</description>
+    <itunes:author>HIP Labs</itunes:author>
+    <itunes:image href="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/artwork.png"/>
+    <image><url>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/artwork.png</url><title>HIP Labs Signal Test</title><link>https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed.xml</link></image>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>no</itunes:explicit>
+    <atom:link href="https://raw.githubusercontent.com/nawellsee/hip-apple-feed/main/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>HIP Labs Signal Test - Seed Episode</title>
+      <description>Seed episode for feed validation. Not a signal test.</description>
+      <pubDate>Sat, 04 Jul 2026 03:57:21 GMT</pubDate>
+      <enclosure url="https://lloyds-mac-mini.tailc5994e.ts.net:8089/media/hip_test_seed_74c3d449.mp3" length="160957" type="audio/mpeg"/>
+      <guid isPermaLink="false">74c3d449-3983-4bf6-a6b4-ccd6ccdfff12</guid>
+      <itunes:duration>00:00:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+  </channel>
+</rss>
